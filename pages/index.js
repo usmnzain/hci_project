@@ -4,23 +4,23 @@ import styles from "./Home.module.css";
 
 export default function Home() {
   const {
-    container,
+    homeContainer,
     title,
     description,
     grid,
     card,
-    main,
+    homeMain,
     footer,
     link,
   } = styles;
   return (
-    <div className={container}>
+    <div className={homeContainer}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={main}>
+      <main className={homeMain}>
         <h1 className={title}>Team assignment posts</h1>
 
         <p className={description}>Click on a post to read full report.</p>
@@ -41,6 +41,49 @@ export default function Home() {
             <a className={card}>
               <h3 className={styles.h3}>
                 Team Assignment 2 - Task Analysis&rarr;
+              </h3>
+              <p className={styles.p}>
+                In today’s world, finding the perfect match for children is a
+                tedious task for parents..... Read More.
+              </p>
+            </a>
+          </Link>
+          <Link href="/posts/conceptual-design">
+            <a className={card}>
+              <h3 className={styles.h3}>
+                Team Assignment 3 - Conceptual Design&rarr;
+              </h3>
+              <p className={styles.p}>
+                In today’s world, finding the perfect match for children is a
+                tedious task for parents..... Read More.
+              </p>
+            </a>
+          </Link>
+          <Link href="/posts/sketches">
+            <a className={card}>
+              <h3 className={styles.h3}>
+                Team Assignment 4 - Design Sketches&rarr;
+              </h3>
+              <p className={styles.p}>
+                In today’s world, finding the perfect match for children is a
+                tedious task for parents..... Read More.
+              </p>
+            </a>
+          </Link>
+
+          <Link href="/posts/prototypes">
+            <a className={card}>
+              <h3 className={styles.h3}>Team Assignment 5 - Prototype&rarr;</h3>
+              <p className={styles.p}>
+                In today’s world, finding the perfect match for children is a
+                tedious task for parents..... Read More.
+              </p>
+            </a>
+          </Link>
+          <Link href="/posts/heuristics">
+            <a className={card}>
+              <h3 className={styles.h3}>
+                Team Assignment 6 - Heuristic Evaluation&rarr;
               </h3>
               <p className={styles.p}>
                 In today’s world, finding the perfect match for children is a

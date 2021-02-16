@@ -1,0 +1,49 @@
+.sidemenu {
+  border: 2px solid #e5e5e5;
+  width: auto;
+  font-size: large;
+  line-height: 2rem;
+  padding: 0rem 1rem;
+  margin-right: 10;
+  position: fixed;
+  top: 10;
+  z-index: 1;
+  right: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ol {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.linkA {
+  text-decoration: none;
+}
+
+.linkA:focus,
+.linkA:active,
+.linkA:visited {
+  color: inherit;
+}
+
+.linkA:hover {
+  color: indianred;
+}
+
+.card {
+  padding: 0rem 0.5rem;
+  margin: 1rem 0rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card:hover {
+  color: indianred;
+}

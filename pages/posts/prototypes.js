@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../components/Nav/Nav";
+import SideMenu from "../../components/SideMenu/SideMenu";
 import styles from "../Home.module.css";
 
 export default function Prototypes() {
@@ -17,9 +18,42 @@ export default function Prototypes() {
           </a>
           <h2>Paper Prototype</h2>
           <div className={styles.image}>
-            <img width="500px" src="/hci_4_1.jpg" />
-            <img width="500px" src="/hci_4_2.jpg" />
-            <img width="500px" src="/hci_4_3.jpg" />
+            <img width="300px" src="/hci_4_1.jpg" />
+            <img width="300px" src="/hci_4_2.jpg" />
+            <img width="300px" src="/hci_4_3.jpg" />
+          </div>
+          <h2>Wireframes</h2>
+          <div>
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/Registerwireframe.png"
+            />
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/Loginwireframe.png"
+            />
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/Candidatewireframe.png"
+            />
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/CandidateListwireframe.png"
+            />
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/Profilewireframe.png"
+            />
+            <img
+              style={{ padding: 5 }}
+              width="300px"
+              src="/Profilewireframe.png"
+            />
           </div>
           <h2>Interactive Prototype</h2>
           You can interact with the prototype by clicking submit buttons and
@@ -31,6 +65,7 @@ export default function Prototypes() {
             allowfullscreen
           ></iframe>
         </div>
+        <SideMenu />
       </div>
     </div>
   );
