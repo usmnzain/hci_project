@@ -6,10 +6,10 @@ export default function () {
   return (
     <div>
       <Nav previous="task-analysis" next="sketches" />
-      <div className={styles.container}>
+      <div className={styles.main}>
         <h1 className={styles.title}>Conceptual Design</h1>
         <h2>1. Use Case</h2>
-        <img src="/usecase.png" />
+        <img width="500px" src="/usecase.png" />
 
         <h2>2. Metaphors</h2>
         <table className={styles.table}>

@@ -15,14 +15,14 @@ export default function () {
           The primary stakeholder in our app will be the app user or the
           customer.
         </p>
-        <img src="/persona.png" />
+        <img width="700px" src="/persona.png" />
 
         <h2>Task Analysis</h2>
-        <img src="/hta-1.png" />
-        <img src="/hta-2.png" />
+        <img width="500px" src="/hta-1.png" />
+        <img width="500px" src="/hta-2.png" />
 
         <h2>Usability Requirment</h2>
-        <img src="/usability.jpg" />
+        <img width="700px" src="/usability.jpg" />
       </div>
     </div>
   );
